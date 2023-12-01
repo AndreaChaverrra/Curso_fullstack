@@ -1,0 +1,253 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 10%;
+}
+
+ /*--------estilos del encabezado--------------------------------------*/
+header{
+    width: 100%;
+    height: 140px;  
+}
+
+header section{
+    background-color: rgba(140, 129, 29, 80%);
+    padding: 10px;
+    display: flex;
+    gap: 5%;
+}
+
+header section #logo, #buscador, #cuenta{
+    height: 60px;
+    width: 100%;
+}
+
+header section #logo{
+    margin-left: 15px;
+}
+
+header section #logo img{
+    height: 60px;
+    width: 150px;
+}
+
+header section #buscador input{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+header section #cuenta{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 25px;
+    margin-right: 30px;
+}
+
+
+header section #cuenta .corazon  img{
+    height: 22px;
+    width: 22px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+header section #cuenta .carrito img{
+    height: 22px;
+    width: 22px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+header section #cuenta .cuenta img{
+    height: 30px;
+    width: 33px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+
+
+ /*-----------estilos del Menú--------------------------------------------*/
+
+ header #nav{
+    background: linear-gradient(#DEDB92, #FFFFFF);
+    height: 40px;
+ }
+
+ header #nav #ul{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    list-style-type: none;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+header #nav #ul li{
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+header #nav #ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+header #nav #ul li a img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+ /*-----------estilos del Secciones---------------------------------------*/
+main{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Seccion 1 del main*/
+
+
+ main #seccion1{
+    display: flex;
+    height: 300px;
+}
+
+main #seccion1 #main-img, main #seccion1 #main-p {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+main #seccion1 #main-img img{
+    height: 300px;
+    width: 100%;
+}
+
+main #seccion1 #main-p{
+    width: 40%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(140, 129, 29);
+}
+
+main #seccion1 #main-p h2 {
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+main #seccion1 #main-p p {
+    font-size: 20px;
+    font-family: Palatino;
+}
+/*Seccion 2 del main */
+
+
+main #seccion2{
+    background: linear-gradient(#B4AF49, #FFFFFF);
+} 
+main #seccion2 .div-seccion2{
+    display: flex;
+    gap: 5%;
+    text-align: center;
+    justify-content: center;
+    padding: 1.5%;
+}
+
+
+main #seccion2 .div-seccion2 div {
+    text-align: center;
+    justify-content: center;
+    width: 8%;
+    height: 80px;
+}
+
+main #seccion2 .div-seccion2 div img{
+    height: 70%;
+    width: 80px;
+    border-radius: 60px;
+
+}
+
+ /*-------estilos del Footer------------------------------*/
+#footer{
+    background-color: rgba(140, 129, 29, 80%);;
+    padding: 10px;
+    margin-top: auto;
+    height: 70px;
+}
+
+#footer div {
+    display: flex;
+    gap: 30%;
+}
+
+#footer div ul {
+    display: flex;
+    gap: 5%;
+}
+
+#footer div .footer-1,#footer div .footer-2{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    width: 50%;
+    padding: 5px;
+}
+
+#footer div .footer-1 li{
+    display: inline;
+    width: 100%;
+    padding-top: 15px;
+
+}
+
+#footer div .footer-2 .nombre{
+    display: inline;
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+#footer div .footer-2 {
+    justify-content: end;
+}
+
+#footer div .footer-1 li a, #footer div .footer-2 li a{
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+#footer div .footer-1 li a img{
+    height: 20px;
+    width: 20px;
+}
+
+#footer div .footer-2 li a img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
